@@ -2,7 +2,6 @@ package com.example.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,9 +13,8 @@ public class MainActivity extends AppCompatActivity {
         txv.setText("Hello tcyang");
         TestMaster();
     }
+        TestDev();
+    }
 
-    private void TestMaster() {
-        TextView txv = (TextView) findViewById(R.id.txv);
-        txv.setText("Master分支");
     }
 }
