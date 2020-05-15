@@ -15,6 +15,11 @@ public class MainActivity extends AppCompatActivity {
     }
         TestDev();
     }
-
+    public boolean onTouchEvent (MotionEvent event){
+        TextView txv = (TextView) findViewById(R.id.txv);
+        txv.setText("另一位使用者修改螢幕觸控");
+        return true;
     }
+
+}
 }
